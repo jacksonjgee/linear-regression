@@ -31,9 +31,10 @@ The `date` column was converted into a numerical feature called `days_since_firs
 The remaining object-type columns were dropped for the first version of the model.
 
 ### 5. Model
+I trained this model using SciKit_Learn's LinearRegression(). I split the features into X and y to represent the input and target features respectively. I split the data into training and test data with a 80/20 split.
 
 ### 6. Evaluate
+On average the model has an error of $167,887.78. The RMSE is 255889.84 meaning that the model makes some especially large errors on certain house. R-Squared is 0.375 meaning that the model explain about 37.5% of the variation in house prices, meaning it is abit better than predicting the average price.
 
 ### 7. Improve
-
-### 8. Explain
+I would like to implement my own Linear Regression method without SciKit learn's library just using numpy.
