@@ -24,3 +24,4 @@ rmse = np.sqrt(mse)
 print("MAE:", mae)
 print("RMSE:", rmse)
 print("R²:", r2)
+
